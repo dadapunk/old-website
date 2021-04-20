@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Host: https://santhalakshminarayana.github.io
-Sitemap: https://santhalakshminarayana.github.io/sitemap.xml
+Host: https://dadapunk.github.io
+Sitemap: https://dadapunk.github.io/sitemap.xml
