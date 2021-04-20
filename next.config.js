@@ -7,6 +7,7 @@ const MDX = require('@next/mdx');
 
 // next.js configuration
 const nextConfig = {
+	
 	webpack: (config, { isServer }) => {
 		if (!isServer) {
       	config.node = {
@@ -16,6 +17,7 @@ const nextConfig = {
     config.resolve.alias.images = path.join(__dirname, "images");
     return config
 	},
+	
 	pageExtensions: ['js', 'jsx', 'md', 'mdx'],
 	target: 'serverless',
 	exportPathMap: function () {
@@ -27,6 +29,9 @@ const nextConfig = {
 	basePath: ghPages? '/dadapunk.github.io/' : '',
 	assetPrefix: ghPages ? '/dadapunk.github.io/' : '',
 }
+module.exports = MDX({
+	pageExtensions: ['js', 'jsx', 'md', 'mdx']
+  }),
 
 module.exports = withPlugins([
 	[optimizedImages, {
@@ -37,13 +42,9 @@ module.exports = withPlugins([
     },
 	}],
 
-	[MDX, {
-		extension: /\.mdx?$/,
-	}],
-	[MD, {
-		extension: /\.md?$/,
-	}]
-
+	// [MDX, {
+	// 	pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+	// }]
 ], nextConfig)
 
 

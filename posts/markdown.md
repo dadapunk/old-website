@@ -1,5 +1,5 @@
 ---
-title: "Test 3 Build Blog with Next.js and MDX & Deploy to Github Pages"
+title: "MD Example Build Blog with Next.js and MDX & Deploy to Github Pages"
 description: "Create a blog with Next.js as Static Site Generator, MDX for writing content, Github Pages for deploying the static website. Also add SEO and Image optimization."
 imgName: "nextjs.jpeg"
 date: "Dec 31, 2020"
