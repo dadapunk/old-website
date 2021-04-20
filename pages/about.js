@@ -303,8 +303,8 @@ const styles = `
 
 `
 
-const home_page_url = 'https://santhalakshminarayana.github.io/';
-const description = "I'm Santha Lakshmi Narayana working as Software Engineer in Bengaluru, India.";
+const home_page_url = 'https://dadapunk.github.io/';
+const description = "I'm Sebastián Velásquez Arancibia working as Software Engineer in Bengaluru, India.";
 
 export default function About_Page(props) {
   return (
@@ -313,28 +313,28 @@ export default function About_Page(props) {
         <meta charSet="utf-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1" />
         <meta name = 'description' content = {description} />
-        <meta name="author" content="Santha Lakshmi Narayana" />
+        <meta name="author" content="Sebastián Velásquez Arancibia" />
 
-        <meta property="og:title" content={'About - Santha Lakshmi Narayana'} key="ogtitle" />
+        <meta property="og:title" content={'About - Sebastián Velásquez Arancibia'} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'about'} key="ogurl" />
         <meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
-        <meta property="og:site_name" content={"Santha Lakshmi Narayana"} key="ogsitename" />
+        <meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={'About - Santha Lakshmi Narayana'} />
+        <meta name="twitter:title" content={'About - Sebastián Velásquez Arancibia'} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + 'about'} />
-        <meta name="twitter:site" content="@santhalakshminarayana" />
+        <meta name="twitter:site" content="@dadapunk" />
         <meta name="twitter:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} />
-        <meta name="twitter:creator" content='@santhalakshminarayana' />
+        <meta name="twitter:creator" content='@dadapunk' />
 
         <link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
-        <link rel="canonical" href="https://santhalakshminarayana.github.io/about" />
+        <link rel="canonical" href="https://dadapunk.github.io/about" />
 
-        <title>{'About - Santha Lakshmi Narayana'}</title>
+        <title>{'About - Sebastián Velásquez Arancibia'}</title>
 
         <style type = 'text/css'>{styles}</style>
       </Head>
@@ -352,7 +352,7 @@ export default function About_Page(props) {
               need_copy_right = {false} />
               <div className = 'about-meta-icon-container'>
                 <MdEmail className = 'about-meta-icon' />
-                <p className = 'about-meta-info'>santhalakshminarayana@gmail.com</p>
+                <p className = 'about-meta-info'>dadapunk@gmail.com</p>
               </div>
               <div className = 'about-meta-icon-container'>
                 <MdLocationOn className = 'about-meta-icon' />
@@ -362,7 +362,7 @@ export default function About_Page(props) {
 
           <div className = 'about-info'>
             <p className = 'about-heading'>#Don't study but learn</p>
-            <p className = 'about-info-description'>Hello tech geek, I'm <b>Santha Lakshmi Narayana</b> (actually human but they called me as),
+            <p className = 'about-info-description'>Hello tech geek, I'm <b>Sebastián Velásquez Arancibia</b> (actually human but they called me as),
               working as <b>Software Engineer</b> and also experiencing complex working nature of life.</p>
 
             <p className = 'about-info-description'>I have started this blog to share my knowledge (one of the rare things to give for free) 

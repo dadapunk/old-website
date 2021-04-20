@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://santhalakshminarayana.github.io',
+  siteUrl: 'https://dadapunk.github.io',
   exclude: ['/tags/*'],
   generateRobotsTxt: true,
 }

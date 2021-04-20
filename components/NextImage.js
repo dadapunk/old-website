@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const def_alt = 'Santha Lakshmi Narayana', def_width = 300, def_height = 200;
+const def_alt = 'Sebastián Velásquez Arancibia', def_width = 300, def_height = 200;
 const img_quality = 50;
 
 export default function NextImage({ img_props }) {

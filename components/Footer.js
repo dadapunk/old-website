@@ -63,7 +63,7 @@ export default function Footer(props) {
 				<div className = 'footer-links'>
 					{props.github == true?
 						<div className = 'link-item'>
-				  <a href = 'https://github.com/santhalakshminarayana' className = 'link' rel="noreferrer" target =' _blank' >
+				  <a href = 'https://github.com/dadapunk' className = 'link' rel="noreferrer" target =' _blank' >
 						<Icon icon_name = 'github' normal_color = {props.normal_color} icon_size = {props.icon_size} />
 				  </a>
 				</div>:
@@ -72,7 +72,7 @@ export default function Footer(props) {
 
 					{props.linkedin == true?
 						<div className = 'link-item'>
-				  <a href = 'https://www.linkedin.com/in/santhalakshminarayana/' className = 'link' rel="noreferrer" target = '_blank' >
+				  <a href = 'https://www.linkedin.com/in/dadapunk/' className = 'link' rel="noreferrer" target = '_blank' >
 						<Icon icon_name = 'linkedin' normal_color = {props.normal_color} icon_size = {props.icon_size} />
 
 					</a>
@@ -82,7 +82,7 @@ export default function Footer(props) {
 
 					{props.medium == true?
 						<div className = 'link-item'>
-				  <a href = 'https://medium.com/@santhalakshminarayana/' className = 'link' rel="noreferrer" target = '_blank' >
+				  <a href = 'https://medium.com/@dadapunk/' className = 'link' rel="noreferrer" target = '_blank' >
 						<Icon icon_name = 'medium' normal_color = {props.normal_color} icon_size = {props.icon_size} />
 					</a>
 				</div>:
@@ -111,7 +111,7 @@ export default function Footer(props) {
 
 			{props.need_copy_right == true?
 				<div className = 'copy-right-container'>
-					<p className = 'copy-right-text'>Santha Lakshmi Narayana &#169; 2021</p>
+					<p className = 'copy-right-text'>Sebastián Velásquez Arancibia &#169; 2021</p>
 				</div>:
 				null
 			}

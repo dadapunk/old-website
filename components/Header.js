@@ -30,7 +30,7 @@ export default function Header(props) {
 	            <img src={require('../images/santha-lakshmi-narayana-logo.png')} alt = 'Logo' />
 	          </picture>
 	      	</Link>
-	        <Link href = '/'><a id = 'name'><b>Santha Lakshmi Narayana</b></a></Link>
+	        <Link href = '/'><a id = 'name'><b>Sebastián Velásquez Arancibia</b></a></Link>
 	      </div>
 
 	      <div className = 'header-right'>

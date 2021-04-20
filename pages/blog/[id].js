@@ -97,7 +97,7 @@ const components = {
 								{...props} />,
 }
 
-const home_page_url = 'https://santhalakshminarayana.github.io/';
+const home_page_url = 'https://dadapunk.github.io/';
 
 export default function Blog({ postMetadata, postContent }) {
 	//const Mdx = require(`../../posts/${postMetadata.id}.mdx`).default;
@@ -111,29 +111,29 @@ export default function Blog({ postMetadata, postContent }) {
         <meta charSet="utf-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1" />
         <meta name = 'description' content = {postMetadata.description} />
-        <meta name="author" content="Santha Lakshmi Narayana" />
+        <meta name="author" content="Sebastián Velásquez Arancibia" />
         <meta name="keywords" content={postMetadata.keywords.join(',')} />
 
-        <meta property="og:title" content={postMetadata.title + '- Santha Lakshmi Narayana'} key="ogtitle" />
+        <meta property="og:title" content={postMetadata.title + '- Sebastián Velásquez Arancibia'} key="ogtitle" />
         <meta property="og:description" content={postMetadata.description} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'blog/' + postMetadata.id} key="ogurl" />
 				<meta property="og:image" content={home_page_url + 'images/' + postMetadata.imgName} key="ogimage" />
 				<meta property="og:type" content="article" />
 				<meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
-				<meta property="og:site_name" content={"Santha Lakshmi Narayana"} key="ogsitename" />
+				<meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content={postMetadata.title + '- Santha Lakshmi Narayana'} />
+				<meta name="twitter:title" content={postMetadata.title + '- Sebastián Velásquez Arancibia'} />
 				<meta name="twitter:description" content={postMetadata.description} />
 				<meta name="twitter:url" content={home_page_url + 'blog/' + postMetadata.id} />
-				<meta name="twitter:site" content="@santhalakshminarayana" />
+				<meta name="twitter:site" content="@dadapunk" />
 				<meta name="twitter:image" content={home_page_url + 'images/' + postMetadata.imgName} />
-				<meta name="twitter:creator" content='@santhalakshminarayana' />
+				<meta name="twitter:creator" content='@dadapunk' />
 
 				<link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
 				<link rel="canonical" href={home_page_url + 'blog/' + postMetadata.id} />
 
-        <title>{postMetadata.title + '- Santha Lakshmi Narayana'}</title>
+        <title>{postMetadata.title + '- Sebastián Velásquez Arancibia'}</title>
       </Head>
 
 			<Header />

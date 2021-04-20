@@ -1,4 +1,4 @@
-const def_alt = 'Santha Lakshmi Narayana', def_width = '100%', def_margin = '0%';
+const def_alt = 'Sebastián Velásquez Arancibia', def_width = '100%', def_margin = '0%';
 
 export default function NextOptimizedImage({ img_props }) {
 	const imgSrc = require(`../images/${img_props.src}?resize?sizes[]=680,sizes[]=920,sizes[]=1024`);

@@ -43,7 +43,7 @@ const styles = `
   }
 `
 
-const home_page_url = 'https://santhalakshminarayana.github.io/';
+const home_page_url = 'https://dadapunk.github.io/';
 const description = "Contact me here";
 
 export default function Contact_Page(props) {
@@ -53,8 +53,8 @@ export default function Contact_Page(props) {
         <meta charSet="utf-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1" />
         <meta name = 'description' content = {description} />
-        <meta name="author" content="Santha Lakshmi Narayana" />
-        <link rel = 'icon' href = '/images/santha lakshmi narayana logo.png?' />
+        <meta name="author" content="Sebastián Velásquez Arancibia" />
+        <link rel = 'icon' href = '/images/Sebastián Velásquez Arancibia logo.png?' />
 
         <meta property="og:title" content={'About'} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
@@ -62,15 +62,15 @@ export default function Contact_Page(props) {
         <meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
-        <meta property="og:site_name" content={"Santha Lakshmi Narayana"} key="ogsitename" />
+        <meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={'Santha Lakshmi Narayana'} />
+        <meta name="twitter:title" content={'Sebastián Velásquez Arancibia'} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + 'about'} />
-        <meta name="twitter:site" content="@santhalakshminarayana" />
+        <meta name="twitter:site" content="@dadapunk" />
         <meta name="twitter:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} />
-        <meta name="twitter:creator" content='@santhalakshminarayana' />
+        <meta name="twitter:creator" content='@dadapunk' />
 
         <title>{'Contact'}</title>
 

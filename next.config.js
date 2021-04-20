@@ -24,8 +24,8 @@ const nextConfig = {
 			'/about': { page: '/about' },
 		}
 	},
-	basePath: ghPages? '/santhalakshminarayana.github.io/' : '',
-	assetPrefix: ghPages ? '/santhalakshminarayana.github.io/' : '',
+	basePath: ghPages? '/dadapunk.github.io/' : '',
+	assetPrefix: ghPages ? '/dadapunk.github.io/' : '',
 }
 
 module.exports = withPlugins([
@@ -88,8 +88,8 @@ module.exports = withOptimizedImages(
 				'/about': { page: '/about' },
 			}
 		},
-		basePath: ghPages? '/santhalakshminarayana.github.io/' : '',
-		assetPrefix: ghPages ? '/santhalakshminarayana.github.io/' : '',
+		basePath: ghPages? '/dadapunk.github.io/' : '',
+		assetPrefix: ghPages ? '/dadapunk.github.io/' : '',
 	})
 )
 */

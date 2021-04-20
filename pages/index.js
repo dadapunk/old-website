@@ -14,8 +14,8 @@ const c1 = '#071013', c2 = '#fffecb', c3 = '#20a4f3',  c4 = '#1d2b35', c5 = '#fb
 
 const header_background = c4, greetings_heading = c6, greetings_statement = c6, quote_color = c5;
 
-const home_page_url = 'https://santhalakshminarayana.github.io/';
-const description = "I'm Santha Lakshmi Narayana, a voyager on mission exploring digital universe to understand how it works.";
+const home_page_url = 'https://dadapunk.github.io/';
+const description = "I'm Sebastián Velásquez Arancibia, a voyager on mission exploring digital universe to understand how it works.";
 
 export default function Home({ postsMetaData }) {
   return (
@@ -24,30 +24,30 @@ export default function Home({ postsMetaData }) {
         <meta charSet="utf-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1" />
         <meta name = 'description' content = {description} />
-        <meta name="author" content="Santha Lakshmi Narayana" />
+        <meta name="author" content="Sebastián Velásquez Arancibia" />
         <meta name="keywords" content={'Blog,Tutorial,Python,Javascript'} />
 
-        <meta property="og:title" content={'Santha Lakshmi Narayana'} key="ogtitle" />
+        <meta property="og:title" content={'Sebastián Velásquez Arancibia'} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url} key="ogurl" />
-        <meta property="og:image" content={home_page_url + 'images/santha lakshmi narayana logo.png'} key="ogimage" />
+        <meta property="og:image" content={home_page_url + 'images/Sebastián Velásquez Arancibia logo.png'} key="ogimage" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
-        <meta property="og:site_name" content={"Santha Lakshmi Narayana"} key="ogsitename" />
+        <meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={'Santha Lakshmi Narayana'} />
+        <meta name="twitter:title" content={'Sebastián Velásquez Arancibia'} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url} />
-        <meta name="twitter:site" content="@santhalakshminarayana" />
-        <meta name="twitter:image" content={home_page_url + 'images/santha lakshmi narayana logo.png'} />
-        <meta name="twitter:creator" content='@santhalakshminarayana' />
+        <meta name="twitter:site" content="@dadapunk" />
+        <meta name="twitter:image" content={home_page_url + 'images/Sebastián Velásquez Arancibia logo.png'} />
+        <meta name="twitter:creator" content='@dadapunk' />
 
         <link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
-        <link rel="canonical" href="https://santhalakshminarayana.github.io/" />
+        <link rel="canonical" href="https://dadapunk.github.io/" />
         <meta name="google-site-verification" content="3p5W6wHr-TDhnkyuewv0nYJd2S9OuTQlj5__OUyLLcU" />
 
-        <title>{'Santha Lakshmi Narayana'}</title>
+        <title>{'Sebastián Velásquez Arancibia'}</title>
       </Head>
       
       <div>
@@ -56,7 +56,7 @@ export default function Home({ postsMetaData }) {
         <div className = 'header-info'>
           <div className = 'greetings'>
             <p className = 'greetings-heading'>Greetings, Programs! In the Matrix called Earth.</p>
-            <p className = 'greetings-statement'>I'm Santha Lakshmi Narayana, a voyager on mission exploring 
+            <p className = 'greetings-statement'>I'm Sebastián Velásquez Arancibia, a voyager on mission exploring 
                                                 digital universe.</p>
           </div>
         </div>

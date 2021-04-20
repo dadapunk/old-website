@@ -9,7 +9,7 @@ const c1 = '#071013', c2 = '#fffecb', c3 = '#20a4f3',  c4 = '#1d2b35', c5 = '#fb
 
 const quote = c5;
 
-const home_page_url = 'https://santhalakshminarayana.github.io/';
+const home_page_url = 'https://dadapunk.github.io/';
 
 export default function Tags({ postsMetaData, tagName }) {
 	return (
@@ -18,28 +18,28 @@ export default function Tags({ postsMetaData, tagName }) {
 				<meta charSet="utf-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1" />
         <meta name = 'description' content = {'Posts about ' + tagName} />
-        <meta name="author" content="Santha Lakshmi Narayana" />
+        <meta name="author" content="Sebastián Velásquez Arancibia" />
 
-        <meta property="og:title" content={'Santha Lakshmi Narayana'} key="ogtitle" />
+        <meta property="og:title" content={'Sebastián Velásquez Arancibia'} key="ogtitle" />
         <meta property="og:description" content={'Posts about' + tagName} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'tags/' + tagName} key="ogurl" />
 				<meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
 				<meta property="og:type" content="article" />
 				<meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
-				<meta property="og:site_name" content={"Santha Lakshmi Narayana"} key="ogsitename" />
+				<meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content={'Santha Lakshmi Narayana'} />
+				<meta name="twitter:title" content={'Sebastián Velásquez Arancibia'} />
 				<meta name="twitter:description" content={'Posts about ' + tagName} />
 				<meta name="twitter:url" content={home_page_url + 'tags/' + tagName} />
-				<meta name="twitter:site" content="@santhalakshminarayana" />
+				<meta name="twitter:site" content="@dadapunk" />
 				<meta name="twitter:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} />
-				<meta name="twitter:creator" content='@santhalakshminarayana' />
+				<meta name="twitter:creator" content='@dadapunk' />
 
 				<link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
 				<link rel="canonical" href={home_page_url + 'tags/' + tagName} />
 
-        <title>{'Santha Lakshmi Narayana'}</title>
+        <title>{'Sebastián Velásquez Arancibia'}</title>
 			</Head>
 
 			<Header />
