@@ -39,7 +39,11 @@ module.exports = withPlugins([
 
 	[MDX, {
 		extension: /\.mdx?$/,
+	}],
+	[MD, {
+		extension: /\.md?$/,
 	}]
+
 ], nextConfig)
 
 
