@@ -34,7 +34,7 @@ export default function Header(props) {
 	      </div>
 
 	      <div className = 'header-right'>
-	        <Link href = '/about'><a>About</a></Link>
+	        <Link href = '/blog'><a>Blog</a></Link>
 	        <a href = '#' onClick = {handleTagsClick} >Tags</a>
 	        <Link href = '/'><a>Home</a></Link>
 	      </div>

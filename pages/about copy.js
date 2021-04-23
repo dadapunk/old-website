@@ -345,7 +345,7 @@ export default function About_Page(props) {
         <div className = 'about-contanier'> 
           <div className = 'about-meta'>
             <img className = 'display-img' src = '/images/me.png'
-                  alt = 'Lakshmi Narayana Santha'/>
+                  alt = 'Sebastián Velásquez Arancibia'/>
             <Footer bg_color = {'transparent'} normal_color = {c4} icon_size = {'21px'} 
               horizontal_margin = {'5px'} horizontal_padding = {'1px'} vertical_padding = {'5px'}
               github = {true} linkedin = {true} medium = {true} kaggle = {true} quora = {true}

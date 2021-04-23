@@ -72,7 +72,7 @@ export default function Footer(props) {
 
 					{props.linkedin == true?
 						<div className = 'link-item'>
-				  <a href = 'https://www.linkedin.com/in/dadapunk/' className = 'link' rel="noreferrer" target = '_blank' >
+				  <a href = 'https://www.linkedin.com/in/sebastian-velásquez-arancibia-ab335a119' className = 'link' rel="noreferrer" target = '_blank' >
 						<Icon icon_name = 'linkedin' normal_color = {props.normal_color} icon_size = {props.icon_size} />
 
 					</a>
