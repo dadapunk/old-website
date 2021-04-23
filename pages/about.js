@@ -344,7 +344,7 @@ export default function About_Page(props) {
 
         <div className = 'about-contanier'> 
           <div className = 'about-meta'>
-            <img className = 'display-img' src = '/images/santha-lakshmi-narayana.png'
+            <img className = 'display-img' src = '/images/me.png'
                   alt = 'Lakshmi Narayana Santha'/>
             <Footer bg_color = {'transparent'} normal_color = {c4} icon_size = {'21px'} 
               horizontal_margin = {'5px'} horizontal_padding = {'1px'} vertical_padding = {'5px'}
@@ -352,18 +352,18 @@ export default function About_Page(props) {
               need_copy_right = {false} />
               <div className = 'about-meta-icon-container'>
                 <MdEmail className = 'about-meta-icon' />
-                <p className = 'about-meta-info'>dadapunk@gmail.com</p>
+                <p className = 'about-meta-info'>svelasquez.consultor@gmail.com</p>
               </div>
               <div className = 'about-meta-icon-container'>
                 <MdLocationOn className = 'about-meta-icon' />
-                <p className = 'about-meta-info'>Bengaluru, India</p>
+                <p className = 'about-meta-info'>Santiago, Chile</p>
               </div>
           </div>
 
           <div className = 'about-info'>
             <p className = 'about-heading'>#Don't study but learn</p>
             <p className = 'about-info-description'>Hello tech geek, I'm <b>Sebastián Velásquez Arancibia</b> (actually human but they called me as),
-              working as <b>Software Engineer</b> and also experiencing complex working nature of life.</p>
+              working as <b>Software Developer</b> and also experiencing complex working nature of life.</p>
 
             <p className = 'about-info-description'>I have started this blog to share my knowledge (one of the rare things to give for free) 
               that I have gained over years and hope that will help you that <b>You don't need to re-invent the wheel</b>. 

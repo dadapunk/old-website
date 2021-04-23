@@ -55,9 +55,7 @@ export default function Home({ postsMetaData }) {
 
         <div className = 'header-info'>
           <div className = 'greetings'>
-            <p className = 'greetings-heading'>Greetings, Programs! In the Matrix called Earth.</p>
-            <p className = 'greetings-statement'>I'm Sebastián Velásquez Arancibia, a voyager on mission exploring 
-                                                digital universe.</p>
+            <p className = 'greetings-statement'>I'm Sebastián Velásquez Arancibia, a voyager on mission exploring digital universe.</p>
           </div>
         </div>
 
