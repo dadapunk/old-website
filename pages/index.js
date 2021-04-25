@@ -6,7 +6,7 @@ import Footer from '../components/Footer.js';
 
 import { SiCplusplus, SiPython, SiJavascript, SiKeras, SiTensorflow, SiPytorch, 
   SiReact, SiNextDotJs, SiMysql } from "react-icons/si";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+import { MdEmail, MdLocationOn, MdFileDownload } from "react-icons/md";
 
 const c1 = '#071013', c2 = '#fffecb', c3 = '#20a4f3',  c4 = '#1d2b35', c5 = '#fb232e', c6 = '#ffaa33';
 
@@ -304,7 +304,7 @@ const styles = `
 `
 
 const home_page_url = 'https://dadapunk.github.io/';
-const description = "I'm Sebastián Velásquez Arancibia working as Software Engineer in Bengaluru, India.";
+const description = "I'm Sebastián Velásquez Arancibia working as Software Engineer in Santiago, Chile.";
 
 export default function About_Page(props) {
   return (
@@ -319,6 +319,7 @@ export default function About_Page(props) {
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'blog'} key="ogurl" />
         <meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
+        <meta property="og:url" content={home_page_url + '/SebastianVelasquez_Resume.pdf'} key="cvpdf" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
         <meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
@@ -333,8 +334,10 @@ export default function About_Page(props) {
 
         <link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
         <link rel="canonical" href="https://dadapunk.github.io/blog" />
+        <link rel = 'cv' href = '/SebastianVelasquez_Resume.pdf?' />
 
-        <title>{'About - Sebastián Velásquez Arancibia'}</title>
+
+        <title>{'Sebastián Velásquez Arancibia'}</title>
 
         <style type = 'text/css'>{styles}</style>
       </Head>
@@ -358,25 +361,30 @@ export default function About_Page(props) {
                 <MdLocationOn className = 'about-meta-icon' />
                 <p className = 'about-meta-info'>Santiago, Chile</p>
               </div>
-          </div>
+              <div className = 'about-meta-icon-container'>
+                <MdFileDownload className = 'about-meta-icon' />
+                {/* <p  className = 'about-meta-info'>Descargar CV</p> */}
+                <link rel = 'cv' href = '/SebastianVelasquez_Resume.pdf?' />
+                <a href = '/SebastianVelasquez_Resume.pdf' rel="noreferrer" target = '_blank' className = 'about-meta-info'>Descargar CV
+						
 
+					</a>
+
+              </div>
+          </div>
           <div className = 'about-info'>
             <p className = 'about-heading'>#Don't study but learn</p>
-            <p className = 'about-info-description'>Hello tech geek, I'm <b>Sebastián Velásquez Arancibia</b> (actually human but they called me as),
-              working as <b>Software Developer</b> and also experiencing complex working nature of life.</p>
+            <p className = 'about-info-description'>Hola, mi nombre es <b>Sebastián Velásquez Arancibia</b> soy Ingeniero Informático,
+              actualmente trabajo como Consultor Freelance.</p>
 
-            <p className = 'about-info-description'>I have started this blog to share my knowledge (one of the rare things to give for free) 
-              that I have gained over years and hope that will help you that <b>You don't need to re-invent the wheel</b>. 
-              If any single person gained anything from me that will give motivation and encourages me to contribute more. This site is a bit technical 
-              about <b>Machine Learning, Web & Mobile development, Programming</b>. 
+            <p className = 'about-info-description'>Profesional Informático responsable, analítico y metódico con mas de dos años
+             de experiencia laboral en proyectos que involucran distintos lenguajes, tecnologías y arquitecturas (web, mobile, biometría)
+              Experiencia en construcción y programación de hardware para interfaces sonoras. . 
             </p>
 
-            <p className = 'about-info-description'>As humans entered into AI world and the prophecies <b>AI RULES THE WORLD</b>, <b>ML IS FUTURE</b> are 
-              happening, I decided to understand how this new world works and started exploring AI. I like travelling in 
-              Machine Learning, Data Science, Computer Vision regions mostly. I try new methods coming out and read tons of blog posts, watch videos, 
-              discuss with experts to keep me update myself about things happening in the digital world so that I won't be thown out from the running wheel.</p>
+            <p className = 'about-info-description'>Me interesa el desarrollo e investigación de herramientas tecnológicas que permitan agilizar y facilitar procesos,
+             responder preguntas, mejorar la calidad de vida y tener un mejor entendimiento de la realidad en que vivimos.</p>
 
-            <p className = 'about-info-description'>More to come in life...</p>
           </div>
         </div>
 
@@ -389,9 +397,9 @@ export default function About_Page(props) {
             
             <div className = 'organization-container'>
               <div className = 'organization-info-container'>
-                <img className = 'organization-logo' src = '/images/nouveau-labs-logo.png' 
+                {/* <img className = 'organization-logo' src = '/images/nouveau-labs-logo.png' 
                       alt = 'Nouveau Labs' />
-                <p className = 'organization-name'>Nouveau Labs</p>
+                <p className = 'organization-name'>Sap Cloud Consultores</p> */}
               </div>
 
               <div className = 'roles-container'>
@@ -400,8 +408,8 @@ export default function About_Page(props) {
                     <div className = 'role-buffer-dot'></div>
                   </div>
                   <div className = 'role'>
-                    <p className = 'role-name'>Software Engineer</p>
-                    <p className = 'role-duration'>Jun 2020 to present</p>
+                    <p className = 'role-name'>Consultor SAP FIORI, IOT</p>
+                    <p className = 'role-duration'>Jun 2019 a Ene 2020</p>
                   </div>
                 </div>
               </div>
@@ -412,8 +420,20 @@ export default function About_Page(props) {
                     <div className = 'role-buffer-dot'></div>
                   </div>
                   <div className = 'role'>
-                    <p className = 'role-name'>AI Intern</p>
+                    <p className = 'role-name'>Ingeniero de Desarrollo</p>
                     <p className = 'role-duration'>Dec 2019 to Jun 2020</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className = 'roles-container'>
+                <div className = 'role-container'>
+                  <div className = 'role-buffer'>
+                    <div className = 'role-buffer-dot'></div>
+                  </div>
+                  <div className = 'role'>
+                    <p className = 'role-name'>Desarrolador Python</p>
+                    <p className = 'role-duration'>Dec 2018 to Jun 2019</p>
                   </div>
                 </div>
               </div>
@@ -428,7 +448,7 @@ export default function About_Page(props) {
           <div className = 'portfolio-section-container'>
             <p className = 'portfolio-section-heading'>Tech Stack</p>
 
-            <p className = 'tech-stack-group-heading'>Tools</p>
+            <p className = 'tech-stack-group-heading'></p>
             <div className = 'tech-stack-group'>
               <div className = 'tech-stack-division'>
                 <SiCplusplus className = 'tech-stack-icon'/>
