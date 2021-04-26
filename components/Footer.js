@@ -72,7 +72,7 @@ export default function Footer(props) {
 
 					{props.linkedin == true?
 						<div className = 'link-item'>
-				  <a href = 'https://www.linkedin.com/in/sebastian-velásquez-arancibia-ab335a119' className = 'link' rel="noreferrer" target = '_blank' >
+				  <a href = 'https://www.linkedin.com/in/sebastian-velasquez-arancibia' className = 'link' rel="noreferrer" target = '_blank' >
 						<Icon icon_name = 'linkedin' normal_color = {props.normal_color} icon_size = {props.icon_size} />
 
 					</a>
@@ -80,31 +80,7 @@ export default function Footer(props) {
 				null
 					}
 
-					{props.medium == true?
-						<div className = 'link-item'>
-				  <a href = 'https://medium.com/@dadapunk/' className = 'link' rel="noreferrer" target = '_blank' >
-						<Icon icon_name = 'medium' normal_color = {props.normal_color} icon_size = {props.icon_size} />
-					</a>
-				</div>:
-				null
-					}
-
-					{props.kaggle == true?
-						<div className = 'link-item'>
-				  <a href = 'https://www.kaggle.com/santhalnr/' className = 'link' rel="noreferrer" target = '_blank' >
-						<Icon icon_name = 'kaggle' normal_color = {props.normal_color} icon_size = {props.icon_size} /></a>
-				</div>:
-				null
-					}
-
-					{props.quora == true?
-						<div className = 'link-item'>
-				  <a href = 'https://www.quora.com/profile/Lakshmi-Narayana-217' className = 'link' rel="noreferrer" target = '_blank'>
-					<Icon icon_name = 'quora' normal_color = {props.normal_color} icon_size = {props.icon_size} />
-				  </a>
-				</div>:
-				null
-					}
+					
 
 				</div>
 			</div>

@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
-import { SiCplusplus, SiPython, SiJavascript, SiKeras, SiTensorflow, SiPytorch, 
-  SiReact, SiNextDotJs, SiMysql } from "react-icons/si";
+import { SiCplusplus, SiPython, SiJavascript, SiJava, SiDocker, 
+   SiNextDotJs, SiMysql, SiAndroid, SiStatamic } from "react-icons/si";
 import { MdEmail, MdLocationOn, MdFileDownload } from "react-icons/md";
 
 const c1 = '#071013', c2 = '#fffecb', c3 = '#20a4f3',  c4 = '#1d2b35', c5 = '#fb232e', c6 = '#ffaa33';
@@ -318,7 +318,7 @@ export default function About_Page(props) {
         <meta property="og:title" content={'About - Sebastián Velásquez Arancibia'} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'blog'} key="ogurl" />
-        <meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
+        <meta property="og:image" content={home_page_url + 'images/me.png'} key="ogimage" />
         <meta property="og:url" content={home_page_url + '/SebastianVelasquez_Resume.pdf'} key="cvpdf" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
@@ -329,7 +329,7 @@ export default function About_Page(props) {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + 'blog'} />
         <meta name="twitter:site" content="@dadapunk" />
-        <meta name="twitter:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} />
+        <meta name="twitter:image" content={home_page_url + 'images/me.png'} />
         <meta name="twitter:creator" content='@dadapunk' />
 
         <link rel = 'icon' href = '/images/santha-lakshmi-narayana-logo.png?' />
@@ -351,7 +351,7 @@ export default function About_Page(props) {
                   alt = 'Sebastián Velásquez Arancibia'/>
             <Footer bg_color = {'transparent'} normal_color = {c4} icon_size = {'21px'} 
               horizontal_margin = {'5px'} horizontal_padding = {'1px'} vertical_padding = {'5px'}
-              github = {true} linkedin = {true} medium = {true} kaggle = {true} quora = {true}
+              github = {true} linkedin = {true} 
               need_copy_right = {false} />
               <div className = 'about-meta-icon-container'>
                 <MdEmail className = 'about-meta-icon' />
@@ -364,7 +364,6 @@ export default function About_Page(props) {
               <div className = 'about-meta-icon-container'>
                 <MdFileDownload className = 'about-meta-icon' />
                 {/* <p  className = 'about-meta-info'>Descargar CV</p> */}
-                <link rel = 'cv' href = '/SebastianVelasquez_Resume.pdf?' />
                 <a href = '/SebastianVelasquez_Resume.pdf' rel="noreferrer" target = '_blank' className = 'about-meta-info'>Descargar CV
 						
 
@@ -393,7 +392,7 @@ export default function About_Page(props) {
 
         <div className = 'tools-container'>
           <div className = 'portfolio-section-container'>
-            <p className = 'portfolio-section-heading'>Experience</p>
+            <p className = 'portfolio-section-heading'>Experiencia</p>
             
             <div className = 'organization-container'>
               <div className = 'organization-info-container'>
@@ -461,13 +460,13 @@ export default function About_Page(props) {
               </div>
 
               <div className = 'tech-stack-division'>
-                <SiTensorflow className = 'tech-stack-icon'/>
-                <p className = 'tech-stack-name'>Tensorflow</p>
+                <SiJava className = 'tech-stack-icon'/>
+                <p className = 'tech-stack-name'>Java</p>
               </div>
 
               <div className = 'tech-stack-division'>
-                <SiPytorch className = 'tech-stack-icon'/>
-                <p className = 'tech-stack-name'>Pytorch</p>
+                <SiDocker className = 'tech-stack-icon'/>
+                <p className = 'tech-stack-name'>Docker</p>
               </div>
 
               <div className = 'tech-stack-division'>
@@ -476,8 +475,8 @@ export default function About_Page(props) {
               </div>
 
               <div className = 'tech-stack-division'>
-                <SiReact className = 'tech-stack-icon'/>
-                <p className = 'tech-stack-name'>React & Reat Native</p>
+                <SiAndroid className = 'tech-stack-icon'/>
+                <p className = 'tech-stack-name'>Android</p>
               </div>
 
               <div className = 'tech-stack-division'>
@@ -489,6 +488,7 @@ export default function About_Page(props) {
                 <SiMysql className = 'tech-stack-icon'/>
                 <p className = 'tech-stack-name'>SQL</p>
               </div>
+
             </div>
 
           </div>
