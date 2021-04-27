@@ -364,7 +364,7 @@ export default function About_Page(props) {
               <div className = 'about-meta-icon-container'>
                 <MdFileDownload className = 'about-meta-icon' />
                 {/* <p  className = 'about-meta-info'>Descargar CV</p> */}
-                <a href = '/SebastianVelasquez_Resume.pdf' rel="noreferrer" target = '_blank' className = 'about-meta-info'>Descargar CV</a>
+                <a href = '/sva-cv(v0.1).pdf' rel="noreferrer" target = '_blank' className = 'about-meta-info'>Descargar CV</a>
 						
               </div>
           </div>
