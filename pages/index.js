@@ -393,9 +393,7 @@ export default function About_Page(props) {
             
             <div className = 'organization-container'>
               <div className = 'organization-info-container'>
-                {/* <img className = 'organization-logo' src = '/images/nouveau-labs-logo.png' 
-                      alt = 'Nouveau Labs' />
-                <p className = 'organization-name'>Sap Cloud Consultores</p> */}
+                
               </div>
 
               <div className = 'roles-container'>

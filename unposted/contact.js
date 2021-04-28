@@ -59,7 +59,7 @@ export default function Contact_Page(props) {
         <meta property="og:title" content={'About'} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url + 'about'} key="ogurl" />
-        <meta property="og:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} key="ogimage" />
+        <meta property="og:image" content={home_page_url + 'images/me.png'} key="ogimage" />
         <meta property="og:type" content="article" />
         <meta property='og:article:publisher' content={home_page_url} key='ogaritclepublisher'/>
         <meta property="og:site_name" content={"Sebastián Velásquez Arancibia"} key="ogsitename" />
@@ -69,7 +69,7 @@ export default function Contact_Page(props) {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + 'about'} />
         <meta name="twitter:site" content="@dadapunk" />
-        <meta name="twitter:image" content={home_page_url + 'images/santha-lakshmi-narayana.png'} />
+        <meta name="twitter:image" content={home_page_url + 'images/me.png'} />
         <meta name="twitter:creator" content='@dadapunk' />
 
         <title>{'Contact'}</title>
