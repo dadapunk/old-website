@@ -1,1 +1,0 @@
-/home/dada/Dropbox/Digital Garden/Recetas/gyosas.md
