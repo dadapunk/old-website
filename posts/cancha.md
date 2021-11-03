@@ -1,3 +1,12 @@
+---
+title: "Cancha Serrana"
+description: "Receta simple para preparar cancha."
+imgName: "nextjs.jpeg"
+date: "Dec 31, 2020"
+tags: ['react', 'next-js']
+keywords: [react', 'next.js', 'blog', 'mdx', 'markdown', 'gh-pages', 'github-pages']
+---
+
 # Cancha Serrana
 
 ![imagen pote con maiz cancha, cancha serrana o maiz tostado](https://jameaperu.com/wp-content/uploads/2018/09/maiz-cancha-serrana_700x465.jpg)
